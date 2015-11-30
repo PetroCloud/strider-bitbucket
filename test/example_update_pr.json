@@ -1,71 +1,95 @@
 {
-    "pullrequest_updated": {
-        "status": "open",
-        "description": "",
-        "title": "Requesting a pull",
-        "destination": {
-            "commit": {
-                "hash": "1ebd13e3d433",
-                "links": {
-                    "self": {
-                        "href": "https://bitbucket.org/!api/2.0/repositories/jaredly/tester/commit/1ebd13e3d433"
-                    }
-                }
-            },
-            "branch": {
-                "name": "master"
-            },
-            "repository": {
-                "full_name": "jaredly/tester",
-                "links": {
-                    "self": {
-                        "href": "https://bitbucket.org/!api/2.0/repositories/jaredly/tester"
-                    },
-                    "avatar": {
-                        "href": "https://d3oaxc4q5k2d6q.cloudfront.net/m/bc85d1577e04/img/language-avatars/default_16.png"
-                    }
-                },
-                "name": "tester"
-            }
-        },
-        "source": {
-            "commit": {
-                "hash": "d769196bf2ec",
-                "links": {
-                    "self": {
-                        "href": "https://bitbucket.org/!api/2.0/repositories/jaredly/tester/commit/d769196bf2ec"
-                    }
-                }
-            },
-            "branch": {
-                "name": "more"
-            },
-            "repository": {
-                "full_name": "jaredly/tester",
-                "links": {
-                    "self": {
-                        "href": "https://bitbucket.org/!api/2.0/repositories/jaredly/tester"
-                    },
-                    "avatar": {
-                        "href": "https://d3oaxc4q5k2d6q.cloudfront.net/m/bc85d1577e04/img/language-avatars/default_16.png"
-                    }
-                },
-                "name": "tester"
-            }
-        },
-        "reason": "",
-        "user": {
-            "username": "jaredly",
-            "display_name": "Jared Forsyth",
-            "links": {
-                "self": {
-                    "href": "https://bitbucket.org/!api/2.0/users/jaredly"
-                },
-                "avatar": {
-                    "href": "https://secure.gravatar.com/avatar/33e65cf5aff804dbc595c8e250e36c3f?d=https%3A%2F%2Fd3oaxc4q5k2d6q.cloudfront.net%2Fm%2Fbc85d1577e04%2Fimg%2Fdefault_avatar%2F32%2Fuser_blue.png&s=32"
-                }
-            }
-        },
-        "date": "2013-11-06T06:00:16.196841+00:00"
-    }
+   "pullrequest_updated":{
+      "state":"OPEN",
+      "description":"README.md made even better",
+      "title":"README.md made even better",
+      "destination":{
+         "commit":{
+            "hash":"927fd129ad69",
+            "links":[
+               {
+                  "href":"https://api.bitbucket.org/2.0/repositories/detkin/test/commit/927fd129ad69",
+                  "rel":"self"
+               }
+            ]
+         },
+         "repository":{
+            "links":[
+               {
+                  "href":"https://api.bitbucket.org/1.0/repositories/detkin/test",
+                  "rel":"self"
+               },
+               {
+                  "href":"https://bitbucket.org/detkin/test",
+                  "rel":"html"
+               },
+               {
+                  "href":"https://bitbucket.org/detkin/test",
+                  "type":"https",
+                  "rel":"clone"
+               },
+               {
+                  "href":"ssh://hg@bitbucket.org/detkin/test",
+                  "type":"ssh",
+                  "rel":"clone"
+               }
+            ],
+            "full_name":"detkin/test"
+         },
+         "branch":{
+            "name":"default"
+         }
+      },
+      "source":{
+         "commit":{
+            "hash":"6ddd631f33de",
+            "links":[
+               {
+                  "href":"https://api.bitbucket.org/2.0/repositories/detkin/test/commit/6ddd631f33de",
+                  "rel":"self"
+               }
+            ]
+         },
+         "repository":{
+            "links":[
+               {
+                  "href":"https://api.bitbucket.org/1.0/repositories/detkin/test",
+                  "rel":"self"
+               },
+               {
+                  "href":"https://bitbucket.org/detkin/test",
+                  "rel":"html"
+               },
+               {
+                  "href":"https://bitbucket.org/detkin/test",
+                  "type":"https",
+                  "rel":"clone"
+               },
+               {
+                  "href":"ssh://hg@bitbucket.org/detkin/test",
+                  "type":"ssh",
+                  "rel":"clone"
+               }
+            ],
+            "full_name":"detkin/test"
+         },
+         "branch":{
+            "name":"detkin/readmemd-made-even-better"
+         }
+      },
+      "reason":"",
+      "author": {
+        "username": "evzijst", 
+        "display_name": "Erik van Zijst", 
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/evzijst"
+          }, 
+          "avatar": {
+            "href": "https://bitbucket-staging-assetroot.s3.amazonaws.com/c/photos/2013/Oct/28/evzijst-avatar-3454044670-3_avatar.png"
+          }
+        }
+      },
+      "date":"2013-07-19 21:04:15+00:00"
+   }
 }
